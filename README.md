@@ -27,6 +27,4 @@ The base contract for GNT is an extension of `ERC20.sol` from [OpenZeppelin](htt
 
 `GNT.sol` is simply an initialization of the constructor of `CappedDistributionToken.sol`
 
-`GNTP2E.sol` extends the contract to add logic surrounding the minting of the Play to Earn reward system. It integrates with the platform through a contract called `TreasuryPool.sol`
-
 More details of the play to earn reward system coming soon!
