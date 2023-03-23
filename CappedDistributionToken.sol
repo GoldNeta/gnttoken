@@ -14,6 +14,8 @@ import "@openzeppelin/contracts/utils/math/SafeMath.sol";
  * defined as a percentage of the total supply, where 100% is equivalent to 10**18.
  * The contract is also Ownable, allowing for administrative control over token
  * minting and other functions.
+ * Owner will carry out token burning from time to time to permanently remove the 
+ * burnt tokens from circulation, reducing the total supply of the token.
  */
 contract CappedDistributionToken is ERC20, Ownable {
   using SafeMath for uint256;
